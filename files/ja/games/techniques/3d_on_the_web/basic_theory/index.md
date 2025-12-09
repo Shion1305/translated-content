@@ -97,7 +97,7 @@ WebGL は右手系座標系を利用します。上記の図のように `x` 軸
 
 ## まとめ
 
-これで 3D の処理の基本的な背景を知ることができました。もし練習に進んだり、動作するデモを見たいのでえあれば、下のチュートリアルを引き続き調べてください。
+これで 3D 処理の基本的な背景を理解できました。練習を進めたり動作するデモを見たい場合は、以下のチュートリアルをご覧ください。
 
 - [Three.js でデモを作る](/ja/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_Three.js)
 - [Babylon.js を使った基本的なデモの作成](/ja/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_Babylon.js)

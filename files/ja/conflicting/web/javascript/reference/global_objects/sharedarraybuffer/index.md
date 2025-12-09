@@ -34,7 +34,7 @@ original_slug: Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer/Planned
 
 - `Atomics` オブジェクトは常に利用可能です。
 - `SharedArrayBuffer` オブジェクトは原則的に常に利用可能ですが、残念ながらウェブコンテンツとの互換性のために、上記の 2 つのヘッダーが設定されていない限り、グローバルオブジェクトのコンストラクターは非公開になります。将来的には、この制限が取り除かれる可能性があります。　[`WebAssembly.Memory`](/ja/docs/WebAssembly/Reference/JavaScript_interface/Memory) はまだインスタンスを取得するために使用することができます。
-- 上記の 2 つのヘッダーが設定されていない限り、さまざまな `postMessage()` API は `SharedArrayBuffer` オブジェクトを使用すると例外が発生します。これら設定されていれば、`Window` オブジェクトと専用ワーカーの `postMessage()` が機能し、メモリ共有が可能になります。
+- 上記の 2 つのヘッダーが設定されていない限り、さまざまな `postMessage()` API は `SharedArrayBuffer` オブジェクトを使用すると例外が発生します。これらのヘッダーが設定されていれば、`Window` オブジェクトと専用ワーカーの `postMessage()` が機能し、メモリ共有が可能になります。
 - `postMessage()` が例外を発生させるかどうかをチェックする必要がないように、 [`self.crossOriginIsolated`](/ja/docs/Web/API/Window/crossOriginIsolated) が標準化されつつあります（論理値を返すゲッターであり、 `true` はヘッダーが設定されていることを示します）。ウィンドウとワーカーのコンテキストで利用可能です。
 
 ## WebAssembly の共有メモリー

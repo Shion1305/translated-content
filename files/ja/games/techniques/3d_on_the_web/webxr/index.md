@@ -10,7 +10,7 @@ slug: Games/Techniques/3D_on_the_web/WebXR
 
 ## VR 機器
 
-Oculus Rift の人気とその他の多くの機器が間もなく市場に登場することで、未来は明るいように見えます。 ゲームをプレイするのに "十分な" VR 体験を実現するのに十分なテクノロジーがすでにあります。 Oculus Rift や HTC Vive などのデスクトップ型のものから、 Playstation VR (現時点では WebVR に対応していないことは確かです) を備えたコンソール、Gear VR や Google Cardboard などのモバイルエクスペリエンスまで、選択できる機器はたくさんあります。
+Oculus Rift の人気とその他の多くの機器が今後市場に登場することで、未来は明るいように見えます。 ゲームをプレイするのに "十分な" VR 体験を実現するのに十分なテクノロジーがすでにあります。 Oculus Rift や HTC Vive などのデスクトップ型のものから、 Playstation VR (現時点では WebVR に対応していないことは確かです) を備えたコンソール、Gear VR や Google Cardboard などのモバイルエクスペリエンスまで、選択できる機器はたくさんあります。
 
 ![](hmds.jpg)
 

@@ -80,7 +80,7 @@ knotBBox.containsPoint(point);
 **`Box3.intersectsBox`** メソッドは、このテストを実行するために使用できます。
 
 ```js
-knotBbox.intersectsBox(otherBox);
+knotBBox.intersectsBox(otherBox);
 ```
 
 > [!NOTE]
